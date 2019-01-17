@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--set the content to be the mobile device width and don't allow the user to pinch to zoom in or out of the screen-->
+		<meta name="viewport" content="width=device-width, user-scalable=no" title="Javascript Game Demo by Will Helliwell">
+		<link rel="stylesheet" type="text/css" href="css/theme.css">
+	</head>
+		<body>			
+			<h1>The Joe Rogan Hunting Experience</h1>
+			<canvas width="640" height="360" id="myCanvas"></canvas>
+			<audio id="arrow" src="audio/arrow.mp3" ></audio>
+			<audio id="scream" src="audio/scream.mp3" ></audio>
+			<audio id="music" src="audio/overview.ogg" loop="true"></audio>
+			<p id="buttonInfo"></p>
+			<button id="play" hidden>Play Music</button>
+			<button id="stop" hidden>Stop Music</button>
+			<script type="text/javascript" src="js/game.js"></script>
+			<script type="text/javascript" src="js/music.js"></script>
+			<br>
+			<p>
+				2 levels. Hunt the elk and don't get eaten!<br>
+				Music composed by me. Sound effects from <a href="https://freesound.org/">freesound.org</a>
+			</p>
+		</body>
+</html>
